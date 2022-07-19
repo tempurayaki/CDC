@@ -1,0 +1,171 @@
+@font-face {
+    font-family: poppins;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+* {
+    font-family: poppins;
+}
+
+.navbar-custom{
+    background-color: #2E294E;
+    color: white;
+}
+
+.nav-link{
+    color: #F9FCFF;
+}
+
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-link:active{
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #2E294E;
+    color: white;
+    flex: 1;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.jobfair-banner {
+    padding: 0;
+    padding-top: 55px;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h3 {
+    font-weight: 600;
+    color: #2E294E;
+}
+
+#home{
+    margin-bottom: 100px;
+}
+
+#about, #timeline, #webinar, #join, #contacts{
+    text-align: center;
+    margin: 80px 200px 80px 200px;
+}
+
+#about p{
+    font-size: medium;
+}
+
+#timeline .container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 150px;
+    gap: 20px;
+    justify-content: center;
+}
+
+#timeline .container div{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#timeline h5{
+    background-color: #AC92A6;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#timeline h4{
+    padding-top: 5px;
+}
+
+#webinar .container{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 150px;
+    gap: 20px;
+    justify-content: center;
+
+    text-align: left;
+    font-weight: 500;
+    font-size: larger;
+}
+
+#webinar .container div{
+    border: 2px solid #2E294E;
+    padding: 20px;
+}
+
+.wb{
+    font-weight: 600;
+}
+
+.wb-date {
+    font-weight: 500;
+    color: gray;
+}
+
+.bi-calendar2-event {
+    color: gray;
+}
+
+#join .container{
+    display: grid;
+    grid-template-columns: repeat(3, 225px);
+    grid-template-rows: 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.join {
+    padding: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    grid-column: 1/ span 3;
+    background-color: #273755;
+    color: whitesmoke;
+}
+
+.join h2 {
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+}
+
+.join-button {
+    padding: 10px 30px 10px 30px;
+    background-color: #8AABCA;
+    border-radius: 30px;
+}
+
+.join-button:hover {
+    background-color: #a6ccef;
+}
+
+#contacts .container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ct a{
+    color: #2E294E;
+}
+
+.ct a:hover{
+    color: #AC92A6;
+}
+
+#ab-anchor, #tl-anchor, #wb-anchor, #jo-anchor, #ct-anchor {
+    color: white;
+}
